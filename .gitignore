@@ -1,0 +1,27 @@
+# 依赖
+node_modules/
+.npm-cache/
+
+# 后端本地配置（含数据库口令，不要提交）
+server/.env
+
+# 数据库备份与导出（含演示数据，按需本地保留）
+lab5_mes-backup-*.sql
+*.dump
+
+# 日志与临时文件
+*.log
+_srv.log
+_srv.err
+*.tmp
+~$*
+
+# 编辑器 / 系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本地脚本与预览产物
+.doc-work/
+.dsh-office-*/

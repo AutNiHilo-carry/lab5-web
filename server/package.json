@@ -1,0 +1,21 @@
+{
+  "name": "lab5-mes-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "生产订单与物流管理系统后端（Express + MySQL）",
+  "type": "module",
+  "main": "src/server.mjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "dev": "node --watch src/server.mjs",
+    "test": "node test/api-test.mjs",
+    "check": "node test/api-test.mjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.11.3"
+  }
+}

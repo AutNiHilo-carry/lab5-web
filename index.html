@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>生产订单与物流管理系统 · Lab5</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%232b6cf6'/%3E%3Cpath d='M50 22l9 19 20 3-14 14 4 20-19-10-19 10 4-20-14-14 20-3z' fill='%23fff'/%3E%3C/svg%3E" />
+
+    <!-- Element Plus 样式 -->
+    <link rel="stylesheet" href="vendor/element-plus.css" />
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="app/style.css" />
+
+    <!-- 依赖库（本地文件，无需联网） -->
+    <script src="vendor/vue.global.prod.js"></script>
+    <script src="vendor/vue-router.global.prod.js"></script>
+    <script src="vendor/element-plus.full.min.js"></script>
+    <script src="vendor/element-plus-icons.iife.min.js"></script>
+    <script src="vendor/element-plus-zh-cn.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div style="height:100vh;display:flex;align-items:center;justify-content:center;color:#8a94a6">
+        正在加载系统…
+      </div>
+    </div>
+
+    <!-- 业务代码 -->
+    <script src="app/00-core.js"></script>
+    <script src="app/10-db.js"></script>
+    <script src="app/20-api.js"></script>
+    <!-- 接后端（可选）：默认用本地演示数据，配置后端地址后自动切换到 REST -->
+    <script src="app/21-api-rest.js"></script>
+    <script src="app/25-session.js"></script>
+    <script src="app/30-ui.js"></script>
+    <script src="app/40-layout.js"></script>
+    <script src="app/50-view-login.js"></script>
+    <script src="app/51-views-base.js"></script>
+    <script src="app/52-views-tech.js"></script>
+    <script src="app/53-views-prod.js"></script>
+    <script src="app/54-views-wms.js"></script>
+    <script src="app/55-views-dashboard.js"></script>
+    <script src="app/60-app.js"></script>
+  </body>
+</html>
